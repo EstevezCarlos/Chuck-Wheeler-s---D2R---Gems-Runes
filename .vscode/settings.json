@@ -5,8 +5,17 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        "__pycache__": true,
+        ".pytest_cache": true,
+        ".venv": true,
+        ".vscode": true
     },
-    "hide-files.files": [],
+    "hide-files.files": [
+        "__pycache__",
+        ".pytest_cache",
+        ".venv",
+        ".vscode"
+    ],
     "editor.tabSize": 24
 }
